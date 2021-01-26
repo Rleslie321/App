@@ -1,1 +1,1 @@
-This project uses Express, Node.js's backend framework, to create APIs that handle various calls from the frontend of my personal website. So far it handles the calls to github to retrieve my projects using the Axios module.
+This project uses Express, Node.js's backend framework, to create APIs that handle various calls from the frontend of my personal website. So far it handles the calls to github to retrieve my projects, and calls the Star Wars API, using the Axios module.
