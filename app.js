@@ -11,7 +11,7 @@ app.use('/app', routes);
 app.get('/projects/marquee/*', (req, res) => {
     res.sendFile(path.join(__dirname, '../public_html/projects/marquee/index.html'), (err)=>{
         if(err){
-            res.status(500).send(err);
+            res.status(500).send("i got here");
         }
     });
 });
